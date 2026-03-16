@@ -59,7 +59,7 @@ def force_subscribe(func):
             is_sub = await is_subscribed(bot, message.from_user.id)
             if not is_sub:
                 keyboard = InlineKeyboardMarkup([
-                    [InlineKeyboardButton("🔔 Join Channel", url="https://t.me/anujedits76")],
+                    [InlineKeyboardButton("🔔 Join Channel", url="https://t.me/log_channel_a")],
                     [InlineKeyboardButton("🔄 Refresh", callback_data="refresh_sub")]
                 ])
                 await message.reply_text(
