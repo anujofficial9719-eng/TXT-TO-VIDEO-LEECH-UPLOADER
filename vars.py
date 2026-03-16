@@ -8,7 +8,7 @@ BOT_TOKEN = environ.get("BOT_TOKEN", "8656231605:AAGVZvUNt7VJiqq1r7MT_wbhCLO229z
 
 # Force Subscribe Configuration
 FORCE_SUB_CHANNEL = environ.get("FORCE_SUB_CHANNEL", "bot_subscription")  # Channel username without @, 
-FORCE_SUB_CHANNEL_LINK = environ.get("FORCE_SUB_CHANNEL_LINK", "https://t.me/anujedits76")  # Channel link
+FORCE_SUB_CHANNEL_LINK = environ.get("FORCE_SUB_CHANNEL_LINK", "https://t.me/log_channel_a")  # Channel link
 
 # Admin Configuration
 ADMINS = list(map(int, environ.get("ADMINS", "7521421400").split()))
